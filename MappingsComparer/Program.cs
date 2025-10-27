@@ -43,9 +43,9 @@ foreach (var type in sharedTypes)
             break;
 
         var prop = defaultProps[i];
-        var fortProp = customProps[i];
+        var customProp = customProps[i];
 
-        if (prop.Name == fortProp.Name)
+        if (prop.Name == customProp.Name)
             continue;
 
         mismatchedSchemas.Add(type);
@@ -153,7 +153,7 @@ string RecursivelyFindType(List<string> types, UsmapPropertyData? data)
                 EUsmapPropertyType.BoolProperty => "uint8",
                 EUsmapPropertyType.IntProperty => "int32",
                 EUsmapPropertyType.FloatProperty => "float",
-                EUsmapPropertyType.ObjectProperty => "FPackageIndex",
+                EUsmapPropertyType.ObjectProperty => "(FIND OBJECT TYPE IN SDK)",
                 EUsmapPropertyType.NameProperty => "FName",
                 EUsmapPropertyType.DelegateProperty => data.Type.ToString(),
                 EUsmapPropertyType.DoubleProperty => "double",
