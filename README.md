@@ -1,5 +1,8 @@
 # UnrealDedicatedServerUtilities
-Utilities for creating and maintaining Unreal Engine dedicated servers that use client content.
+Utilities for creating and maintaining Unreal Engine dedicated servers that use client content. 
+```
+NOTICE: currently this is a proprietary project. 
+```
 
 ## Projects
 - **MappingsComparer:** a tool used for comparing two mappings to discover missing or misordered properties. 
