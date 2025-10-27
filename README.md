@@ -1,7 +1,10 @@
 # UnrealDedicatedServerUtilities
 Utilities for creating and maintaining Unreal Engine dedicated servers that use client content.
 
-## Usage
+## Projects
+- **MappingsComparer:** a tool used for comparing two mappings to discover missing or misordered properties. 
+
+## MappingsComparer usage
 ```
 MappingsComparer.exe <desired_engine_mappings_path> <game_mappings_path>
 ```
